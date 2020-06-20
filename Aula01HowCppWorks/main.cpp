@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "Log.hpp"      //Não é necessario, pois o Linker busca automaticamente onde está Log()
+
+void Log(const char* mensagem);     //Poderia tb deixar sem o nome de argumento: 'mensagem'
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Log("Hello, World!\n");
+    std::cin.get();
+    
     return 0;
 }
