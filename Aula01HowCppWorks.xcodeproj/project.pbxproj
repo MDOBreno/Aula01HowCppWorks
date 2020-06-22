@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		33B6884D249EAE11005A0F24 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33B6884C249EAE11005A0F24 /* main.cpp */; };
 		33B68855249EB75D005A0F24 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33B68853249EB75D005A0F24 /* Log.cpp */; };
+		33B68858249F0657005A0F24 /* Matematica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33B68856249F0657005A0F24 /* Matematica.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		33B6884C249EAE11005A0F24 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		33B68853249EB75D005A0F24 /* Log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
 		33B68854249EB75D005A0F24 /* Log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
+		33B68856249F0657005A0F24 /* Matematica.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matematica.cpp; sourceTree = "<group>"; };
+		33B68857249F0657005A0F24 /* Matematica.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matematica.hpp; sourceTree = "<group>"; };
+		33B68859249F07BA005A0F24 /* ColcheteFinal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColcheteFinal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,9 @@
 				33B6884C249EAE11005A0F24 /* main.cpp */,
 				33B68853249EB75D005A0F24 /* Log.cpp */,
 				33B68854249EB75D005A0F24 /* Log.hpp */,
+				33B68856249F0657005A0F24 /* Matematica.cpp */,
+				33B68857249F0657005A0F24 /* Matematica.hpp */,
+				33B68859249F07BA005A0F24 /* ColcheteFinal.h */,
 			);
 			path = Aula01HowCppWorks;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B68855249EB75D005A0F24 /* Log.cpp in Sources */,
+				33B68858249F0657005A0F24 /* Matematica.cpp in Sources */,
 				33B6884D249EAE11005A0F24 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
